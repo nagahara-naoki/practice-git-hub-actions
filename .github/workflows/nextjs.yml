@@ -2,7 +2,7 @@ name: Build Next.js
 
 on:
   push:
-    branches: - main
+    branches: ["main"]
   workflow_dispatch:
 
 jobs:

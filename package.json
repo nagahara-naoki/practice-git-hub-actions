@@ -6,7 +6,10 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "version:major": "node scripts/update-version.js major",
+    "version:minor": "node scripts/update-version.js minor",
+    "version:patch": "node scripts/update-version.js patch"
   },
   "dependencies": {
     "react": "^19.0.0",

@@ -1,3 +1,6 @@
+import { AppVersion } from "../version";
+
 export default function Home() {
-  return <div>HELLO!</div>;
+  const v = AppVersion;
+  return <div>HELLO! version:{v.toString()}</div>;
 }
